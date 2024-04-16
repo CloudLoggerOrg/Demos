@@ -1,0 +1,15 @@
+curl --location --request POST 'https://api.cloudlogger.app/log' \
+--header 'ProjectSecret: your_project_secret' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "log": [
+        {
+            "Name": "Date",
+            "Value": "22-10-1994"
+        },
+        {
+            "Name": "Country",
+            "Value": "Netherlands"
+        }
+    ]
+}'
