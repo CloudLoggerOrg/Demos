@@ -15,5 +15,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Uygulama http://localhost:${port} üzerinde çalışıyor.`);
+  console.log(`The application runs on http://localhost:${port}.`);
 });
