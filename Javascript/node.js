@@ -8,8 +8,8 @@ const cloudLoggerItems = [
 
 cloudLogger.Log(cloudLoggerItems)
   .then(() => {
-    console.log('Loglama başarılı!');
+    console.log('Logging successful!');
   })
   .catch((err) => {
-    console.error('Loglama sırasında hata oluştu:', err);
+    console.error('An error occurred while logging:', err);
   });
