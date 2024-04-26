@@ -1,4 +1,3 @@
-
 <script src="https://cdn.statically.io/gh/VIOVNL/CloudLogger-NPM/main/dist/index.global.min.js"></script>
 
 const cloudLogger = CloudLogger.Create("your_project_secret");
